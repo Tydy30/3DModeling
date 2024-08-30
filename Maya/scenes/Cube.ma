@@ -1,6 +1,10 @@
 //Maya ASCII 2025ff03 scene
 //Name: Cube.ma
+<<<<<<< HEAD
 //Last modified: Thu, Aug 29, 2024 10:28:35 PM
+=======
+//Last modified: Thu, Aug 29, 2024 10:24:31 PM
+>>>>>>> 17b70cf944f84bb1b3a4a243463a42d613f96cb3
 //Codeset: 1252
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -11,17 +15,29 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
+<<<<<<< HEAD
 fileInfo "UUID" "D8CA3C86-44C8-645C-1C4C-4CB833B973FC";
 createNode transform -s -n "persp";
 	rename -uid "8F87EE97-4A0C-F748-440F-868442A70E54";
 	setAttr ".v" no;
 	setAttr ".t" -type "double3" 3.7721634697567925 2.8291226023175291 3.7721634697568427 ;
+=======
+fileInfo "UUID" "56B546E9-4FD2-1B8F-335D-C699B41BAFC5";
+createNode transform -s -n "persp";
+	rename -uid "8F87EE97-4A0C-F748-440F-868442A70E54";
+	setAttr ".v" no;
+	setAttr ".t" -type "double3" 4.5261923615752924 3.394644271181404 4.5261923615753421 ;
+>>>>>>> 17b70cf944f84bb1b3a4a243463a42d613f96cb3
 	setAttr ".r" -type "double3" -27.938352729602379 44.999999999999972 -5.172681101354183e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "64F4AE0D-4FBA-3FA4-072F-06897F354FA1";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
+<<<<<<< HEAD
 	setAttr ".coi" 6.0384078351893837;
+=======
+	setAttr ".coi" 7.2454430034213004;
+>>>>>>> 17b70cf944f84bb1b3a4a243463a42d613f96cb3
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
